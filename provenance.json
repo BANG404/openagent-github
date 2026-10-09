@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "ac996c0dde7fb2a9f805cd5277ffc95ecd44a321",
+  "path": "external_plugins/github",
+  "source_sha256": "f95d7d5e35318f28acf0e2cb969b1c931747f8748334facce4bef4a4dd477b1b",
+  "artifacts": {
+    "command.mjs": "c9dd5a107d2bf781523eb40084097df3dc8848c2a19675cf6a5b1fce44a13505",
+    "github.mjs": "8373a92ded3afb7643b0758d8cc373083700ef843baef55cb4477e2268e19a23",
+    "status.mjs": "db08b2ec3d5c5de96b264cb54b90fa34b76a9156d0219d084317a8769b76f118"
+  }
+}
