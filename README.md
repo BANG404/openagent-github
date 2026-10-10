@@ -4,11 +4,15 @@ GitHub repositories through the official GitHub MCP server.
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
+## Plugin settings
+
+Requires a Runtime with the configuration-v1 feature. Open Integrations → Plugins → this plugin to save parameters and credentials. Password fields show only whether a token exists; leave blank to keep it, or explicitly clear and save. OAuth HTTP connectors offer Test, Authorize and local Disconnect here. These operations preserve package data and existing credential files. Running daemons need a restart after changing settings. Actual account operations still require provider-specific acceptance.
+
 ## Setup
 
-- GitHub token in PLUGIN_DATA/credentials.json as {"token":"..."}; never place credentials in the package.
+- GitHub token saved in this plugin’s settings; legacy credentials.json remains a fallback.
 
-Run /github:setup. Package state and credentials belong in the active OpenAgent home at plugin-data/github/. Never place secrets in plugin.json or commit them. Refresh the plugin after changing credentials.
+Run /github:setup. Package state belongs in plugin-data/github/; private settings and credentials are stored by the Runtime in plugin-settings/github.json. Never place secrets in plugin.json or commit them. Refresh the plugin after changing credentials.
 
 ## Verification
 
