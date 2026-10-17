@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "github",
-  "version": "0.2.0",
-  "description": "GitHub repositories through the official GitHub MCP server.",
+  "version": "0.2.1",
+  "description": "Work with GitHub repositories, issues, and pull requests; requires a GitHub access token.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/anthropics/claude-plugins-official/tree/ac996c0dde7fb2a9f805cd5277ffc95ecd44a321/external_plugins/github",
   "repository": "https://github.com/BANG404/openagent-github",
@@ -46,16 +46,16 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "github",
-            "description": "GitHub repositories through the official GitHub MCP server.",
+            "display_name": "GitHub Repositories",
+            "description": "Work with GitHub repositories, issues, and pull requests; requires a GitHub access token.",
             "commands.setup.label": "Setup",
             "commands.setup.description": "Review connection prerequisites",
             "configuration.token.label": "GitHub token",
             "configuration.token.description": "Saved privately for this plugin. Leave the password field blank to keep its saved value."
           },
           "zh": {
-            "display_name": "github",
-            "description": "通过官方 GitHub MCP 服务操作仓库。",
+            "display_name": "GitHub 仓库协作",
+            "description": "操作 GitHub 仓库、议题和拉取请求，需要配置 GitHub 访问令牌。",
             "commands.setup.label": "配置",
             "commands.setup.description": "查看连接要求",
             "configuration.token.label": "访问令牌",

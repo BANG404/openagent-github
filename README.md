@@ -1,6 +1,6 @@
-# github for OpenAgent
+# GitHub Repositories
 
-GitHub repositories through the official GitHub MCP server.
+Work with GitHub repositories, issues, and pull requests; requires a GitHub access token.
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
@@ -22,6 +22,6 @@ Bundled tests cover immutable artifacts, config conversion and service configura
 
 ## 中文
 
-通过官方 GitHub MCP 服务操作仓库。 安装发布包后运行 /github:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/github/ 下，修改后刷新插件。
+操作 GitHub 仓库、议题和拉取请求，需要配置 GitHub 访问令牌。 安装发布包后运行 /github:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/github/ 下，修改后刷新插件。
 
 Upstream source and exact revision are recorded in provenance.json. Bundled source remains available for inspection.
